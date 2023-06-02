@@ -1,0 +1,116 @@
+body {
+    background-color: hsl(216, 12%, 8%);
+    max-width: 1440px;
+    margin: 0 auto;
+    font-family: 'Overpass', sans-serif;
+    color: hsl(217, 12%, 63%);
+}
+main {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+main .Main-Body{
+    background-color: hsl(213, 19%, 18%);
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    border-radius: 15px;
+    width: 400px;
+    height: 360px;
+    padding: 30px;
+}
+.Icon-Star{
+    background-color: hsl(214, 18%, 25%);
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.Main-Title{
+    font-size: 12px;
+    margin-top: 10px;
+    color: hsl(0, 0%, 100%);
+}
+.Description{
+    font-size: 14px;
+    color: hsl(217, 12%, 63%);
+}
+.Main-Point{
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Point{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: hsl(215, 17%, 21%);
+    font: bolder;
+    font-size: 15px;
+}
+.Point:hover{
+    background-color: hsl(217, 12%, 63%);
+    cursor: pointer;
+    color: hsl(0, 0%, 100%);
+}
+.ChangeColor{
+    background-color: rgb(255, 115, 0);
+    color: hsl(0, 0%, 100%);
+}
+button{
+    font-size: 13px;
+    font: bold;
+    color: hsl(0, 0%, 100%);
+    background-color: rgb(255, 115, 0);
+    margin-top: 5px;
+    border-radius: 40px;
+    border: none;
+    cursor: pointer;
+    height: 40px;
+    color: papayawhip;
+    font-size: 14px;
+}
+button:hover{
+    background-color: hsl(0, 0%, 100%);
+    color: rgb(255, 115, 0);
+}
+
+.ResultImage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ResultContent{
+    font: bold;
+    display: block;
+    text-align: center;
+    color: rgb(243, 140, 56);
+    background-color: hsl(215, 17%, 21%);
+    font-size: 14px;
+    margin-left: 70px;
+    margin-right: 70px;
+    border-radius: 20px;
+    height: 35px;
+    padding: 10px;
+}
+.Feedback{
+    display: block;
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    font-size: 28px;
+}
+.FinalDescription{
+    display: block;
+    text-align: center;
+    font-size: 15px;
+}
